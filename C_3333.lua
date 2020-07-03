@@ -99,7 +99,7 @@ echo -e "\e[36m"
 done
 ]])  
 file:close()  
-file = io.open("run", "w")  
+file = io.open("xc", "w")  
 file:write([[
 #!/usr/bin/env bash
 cd $HOME/C_3333
@@ -2210,14 +2210,16 @@ end
 
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' then
 Text = [[
-🏆┇C_3333 TeAm 
-━ ━ ━ ━ ━ ━ ━ ━ ━ 
-💥┇[Channel C_3333](t.me/C_3333)
-🥇┇[Information](t.me/VV_VVG)
-👨🏻‍💻┇[Devlpoer](t.me/mSaab)
+⦑ Welcome to Source ⦒
+
+ ⌔ . MeRa TEAM 
+┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
+💥┇[⌔ . قناة الاولى ](t.me/C_3333)
+🥇┇[⌔ . قناة الثانية ](t.me/VV_VVG)
+👨🏻‍💻┇[⌔ . تواصل](t.me/mSaab)
 
 ━ ━ ━ ━ ━ ━ ━ ━ ━ 
-📨┇[TwAsl Source](t.me/mSaab)
+📨┇[⌔ . TWS TeKToK](t.me/mSaab)
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
